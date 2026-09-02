@@ -31,12 +31,15 @@
                 <span class="header__logo-text">CasaVista</span>
             </a>
             <!-- Navegación principal -->
-            <nav class="header__nav" role="navigation" aria-label="Navegación principal">
+            <div>
+                <span id="abrirMenu" class="btn_menu"><i class="iconoir-menu"></i></span>
+                <span id="cerrarMenu" class="btn_menu hidden"><i class="iconoir-xmark"></i></span>
+                <nav id="nav" class="header__nav" role="navigation" aria-label="Navegación principal">
                 <ul class="header__nav-list">
                     <li class="header__nav-item">
                         <a href="#inicio" class="header__nav-link">Inicio</a>
                     </li>
-                    <li class="header__nav-item">
+                    <li class="header__nav-item">   
                         <a href="propiedades.html" class="header__nav-link">Propiedades</a>
                     </li>
                     <li class="header__nav-item">
@@ -50,6 +53,7 @@
                     </li>
                 </ul>
             </nav>
+            </div>
         </div>
     </header>
     <main role="main">
@@ -403,7 +407,6 @@
                     <li><a href="#servicios" class="footer__link">Asesoría</a></li>
                 </ul>
             </div>
-
             <!-- Redes sociales -->
             <div class="footer__social">
                 <h3 class="footer__links-title">Síguenos</h3>
@@ -415,12 +418,11 @@
                 </div>
             </div>
         </div>
-
         <!-- Barra de copyright -->
         <div class="footer__bottom">
             <p class="footer__copyright">&copy; 2026 CasaVista Inmobiliaria. Todos los derechos reservados.</p>
         </div>
     </footer>
-
+    <script src="app.js"></script>
 </body>
 </html>
