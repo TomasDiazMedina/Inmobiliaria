@@ -2,7 +2,7 @@
 ---
 ## Díaz Medina Tomás Ignacio 
 ---
-### Descripción: 
+### Descripción: Sitio web para una inmobiliaria, desarrollado como Trabajo Práctico de la materia Programación IV (UTN FRT). El sitio presenta la información de la inmobiliaria, el catálogo de las propiedades en venta/alquiler, los servicios que ofrece, opiniones de antiguos clientes y un formulario de contacto.
 ---
 ### Tecnologías usadas: HTML, CSS, JavaScript, OpenCode
 ---
