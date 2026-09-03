@@ -717,16 +717,6 @@ img {
   .header__nav-link--cta::after {
     display: block;
   }
-  .hidden {
-    visibility: hidden;
-    width: 0;
-    height: 0;
-  }
-  .mostrar {
-    visibility: visible;
-    width: 100%;
-    height: 100%;
-  }
   .visible {
     display: block;
     visibility: visible;
