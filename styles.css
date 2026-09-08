@@ -583,6 +583,12 @@ img {
   resize: vertical;
   min-height: 120px;
 }
+
+/*HTML PROPIEDADES*/
+
+.section_propiedades{
+  margin: 120px 20px 70px;
+}
 /* FOOTER*/
 .footer {
   background-color: var(--color-primary);
