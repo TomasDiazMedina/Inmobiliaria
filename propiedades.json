@@ -1,0 +1,140 @@
+{
+    "propiedades":[
+        {
+            "titulo":"Casa Moderna en Villa Serena",
+            "precio":"USD 285.000",
+            "ubicacion":"Villa Carlos Paz, Córdoba",
+            "tipo":"Casa",
+            "categoria":"Venta",
+            "imagen":"./img/casa (6).jpg",
+            "info":
+                {
+                    "habitacion":"4",
+                    "baños":"3",
+                    "dimension":"220 m²"
+                }
+            
+        },
+        {
+            "titulo":"Departamento Penthouse",
+            "precio":"USD 45.000/mes",
+            "ubicacion":"Puerto Madero, Buenos Aires",
+            "tipo":"Departamento",
+            "categoria":"Alquiler",
+            "imagen":"./img/casa (3).jpeg",
+            "info":
+                {
+                    "habitacion":"3",
+                    "baños":"2",
+                    "dimension":"180 m²"
+                }
+            
+        },
+        {
+            "titulo":"Quinta de Lujo en el Lago",
+            "precio":"USD 40.000/mes",
+            "ubicacion":"San Carlos de Bariloche, Río Negro",
+            "tipo":"Quinta",
+            "categoria":"Alquiler",
+            "imagen":"./img/casa (1).jpeg",
+            "info":
+                {
+                    "habitacion":"5",
+                    "baños":"4",
+                    "dimension":"350 m²"
+                }
+            
+        },
+        {
+            "titulo":"Galpón",
+            "precio":"USD 120.000",
+            "ubicacion":"Las Talitas, Tucumán",
+            "tipo":"Galpón",
+            "categoria":"Venta",
+            "imagen":"./img/casa (2).jpg",
+            "info":
+                {
+                    "habitacion":"1",
+                    "baños":"1",
+                    "dimension":"480 m²"
+                }
+            
+        },
+        {
+            "titulo":"Mansión",
+            "precio":"USD 950.000",
+            "ubicacion":"Núñez, Buenos Aires",
+            "tipo":"Casa",
+            "categoria":"Venta",
+            "imagen":"./img/casa (9).jpg",
+            "info":
+                {
+                    "habitacion":"6",
+                    "baños":"5",
+                    "dimension":"520 m²"
+                }
+            
+        },
+        {
+            "titulo":"Cabaña en la sierra",
+            "precio":"USD 10.000/mes",
+            "ubicacion":"Villa General Belgrano, Córdoba",
+            "tipo":"Cabaña",
+            "categoria":"Alquiler",
+            "imagen":"./img/casa (8).jpg",
+            "info":
+                {
+                    "habitacion":"2",
+                    "baños":"1",
+                    "dimension":"95 m²"
+                }
+            
+        },
+        {
+            "titulo":"Departamento dos ambientes",
+            "precio":"USD 15.000/mes",
+            "ubicacion":"Palermo, Buenos Aires",
+            "tipo":"Departamento",
+            "categoria":"Alquiler",
+            "imagen":"./img/casa (5).jpg",
+            "info":
+                {
+                    "habitacion":"1",
+                    "baños":"1",
+                    "dimension":"55 m²"
+                }
+            
+        },
+        {
+            "titulo":"Casa de lujo",
+            "precio":"USD 620.000",
+            "ubicacion":"Martínez, Buenos Aires",
+            "tipo":"Casa",
+            "categoria":"Venta",
+            "imagen":"./img/casa (4).jpg",
+            "info":
+                {
+                    "habitacion":"5",
+                    "baños":"4",
+                    "dimension":"410 m²"
+                }
+            
+        },
+        {
+            "titulo":"Casa Moderna",
+            "precio":"USD 175.000",
+            "ubicacion":"Mendoza, Mendoza",
+            "tipo":"Casa",
+            "categoria":"Venta",
+            "imagen":"./img/casa (7).jpg",
+            "info":
+                {
+                    "habitacion":"3",
+                    "baños":"2",
+                    "dimension":"160 m²"
+                }
+            
+        }
+    ]
+
+}

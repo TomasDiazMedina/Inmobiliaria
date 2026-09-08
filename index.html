@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO: META ETIQUETAS   -->
+    <title>CasaVista Inmobiliaria | Propiedades en Venta y Alquiler</title>
+    <meta name="description" content="CasaVista Inmobiliaria ofrece las mejores propiedades de lujo en venta y alquiler. Encuentra tu hogar ideal con nosotros.">
+    <meta name="keywords" content="inmobiliaria, propiedades, casas en venta, departamentos en alquiler, bienes raíces, lujo">
+    <meta name="author" content="CasaVista Inmobiliaria">
+    <meta name="robots" content="index, follow">
+    <!-- Open Graph: para compartir en redes sociales -->
+    <meta property="og:title" content="CasaVista Inmobiliaria | Propiedades de Lujo">
+    <meta property="og:description" content="Encuentra tu hogar ideal con las mejores propiedades de lujo en venta y alquiler.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.casavista.com">
+    <meta property="og:image" content="https://placehold.co/1200x630/2c3e50/ffffff?text=CasaVista">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <!-- Enlace al archivo de estilos -->
+    <link rel="stylesheet" href="icons.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header" role="banner">
+        <div class="header__container">
+            <a href="#" class="header__logo" aria-label="CasaVista - Página principal">
+                <span class="header__logo-icon">&#9758;</span>
+                <span class="header__logo-text">CasaVista</span>
+            </a>
+            <!-- Navegación principal -->
+            <div>
+                <span class="btn_menu"><i id="abrirMenu" class="iconoir-menu"></i></span>
+                <nav id="nav" class="header__nav" role="navigation" aria-label="Navegación principal">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="#inicio" class="header__nav-link">Inicio</a>
+                    </li>
+                    <li class="header__nav-item">   
+                        <a href="propiedades.html" class="header__nav-link">Propiedades</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#servicios" class="header__nav-link">Servicios</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#nosotros" class="header__nav-link">Nosotros</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#contacto" class="header__nav-link header__nav-link--cta">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+    </header>
+    <main role="main">
+        <!-- SECCIÓN HERO: Sección de bienvenida  -->
+        <section id="inicio" class="hero" aria-label="Bienvenida">
+            <div class="hero__overlay"></div>
+            <div class="hero__content">
+                <h1 class="hero__title">Encuentra tu <span class="hero__title-highlight">Hogar Ideal</span></h1>
+                <p class="hero__subtitle">Propiedades exclusivas en las ubicaciones más prestigiosas de la ciudad</p>
+                <a href="#propiedades" class="hero__cta">Explorar Propiedades</a>
+            </div>
+            <img
+                src="https://images.pexels.com/photos/38240611/pexels-photo-38240611.jpeg"
+                alt="Hermosa propiedad residencial de lujo con jardín y piscina"
+                class="hero__image"
+                loading="eager"
+            >
+        </section>
+        <!-- SECCIÓN PROPiedades: Listado de inmuebles -->
+        <section id="propiedades" class="properties" aria-label="Nuestras Propiedades">
+            <div class="properties__container">
+                <header class="section-header">
+                    <h2 class="section-header__title">Propiedades Destacadas</h2>
+                    <p class="section-header__subtitle">Descubre nuestra selección de propiedades premium</p>
+                </header>
+                <div class="properties__grid">
+                    <article class="property-card">
+                        <div class="property-card__image-wrapper">
+                            <img
+                                src="https://images.pexels.com/photos/34277702/pexels-photo-34277702.jpeg"
+                                alt="Casa moderna de 3 dormitorios con jardín privado"
+                                class="property-card__image"
+                                loading="lazy"
+                            >
+                            <span class="property-card__badge">Venta</span>
+                        </div>
+                        <div class="property-card__content">
+                            <h3 class="property-card__title">Casa Moderna en Villa Serena</h3>
+                            <p class="property-card__location"> <i class="iconoir-pin-solid"></i> Zona Norte, Buenos Aires</p>
+                            <ul class="property-card__features">
+                                <li> 3 Dormitorios</li>
+                                <li> 2 Baños</li>
+                                <li> 180 m²</li>
+                            </ul>
+                            <div class="property-card__footer">
+                                <span class="property-card__price">$450.000</span>
+                                <a href="#contacto" class="property-card__link">Ver detalles &rarr;</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="property-card">
+                        <div class="property-card__image-wrapper">
+                            <img
+                                src="https://images.pexels.com/photos/21853670/pexels-photo-21853670.jpeg"
+                                alt="Departamento de lujo con vista panorámica al río"
+                                class="property-card__image"
+                                loading="lazy"
+                            >
+                            <span class="property-card__badge">Alquiler</span>
+                        </div>
+                        <div class="property-card__content">
+                            <h3 class="property-card__title">Departamento Penthouse</h3>
+                            <p class="property-card__location"> <i class="iconoir-pin-solid"></i> Puerto Madero, Buenos Aires</p>
+                            <ul class="property-card__features">
+                                <li> 2 Dormitorios</li>
+                                <li> 2 Baños</li>
+                                <li> 120 m²</li>
+                            </ul>
+                            <div class="property-card__footer">
+                                <span class="property-card__price">$2.500/mes</span>
+                                <a href="#contacto" class="property-card__link">Ver detalles &rarr;</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="property-card">
+                        <div class="property-card__image-wrapper">
+                            <img
+                                src="https://images.pexels.com/photos/20159087/pexels-photo-20159087.jpeg"
+                                alt="Chalet de lujo con piscina y amplio parque"
+                                class="property-card__image"
+                                loading="lazy"
+                            >
+                            <span class="property-card__badge">Venta</span>
+                        </div>
+                        <div class="property-card__content">
+                            <h3 class="property-card__title">Chalet de Lujo en del Lago</h3>
+                            <p class="property-card__location"><i class="iconoir-pin-solid"></i> San Isidro, Buenos Aires</p>
+                            <ul class="property-card__features">
+                                <li> 5 Dormitorios</li>
+                                <li> 4 Baños</li>
+                                <li> 350 m²</li>
+                            </ul>
+                            <div class="property-card__footer">
+                                <span class="property-card__price">$890.000</span>
+                                <a href="#contacto" class="property-card__link">Ver detalles &rarr;</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="btn_propiedades">
+                    <a href="#propiedades" class="hero__cta">Ver mas propiedades</a>
+                </div>  
+            </div>
+        </section>
+        <!-- SECCIÓN SERVICIOS: Lo que ofrecemos       -->
+        <section id="servicios" class="servicios" aria-label="Nuestros Servicios">
+            <div class="servicios__container">
+                <header class="section-header">
+                    <h2 class="section-header__title">Nuestros Servicios</h2>
+                    <p class="section-header__subtitle">Te acompañamos en cada paso del proceso</p>
+                </header>
+
+                <div class="servicios__grid">
+                    <!-- Servicio 1: Compra -->
+                    <article class="service-card">
+                        <div class="service-card__icon"><i class="iconoir-home-alt"></i></div>
+                        <h3 class="service-card__title">Compra de Propiedades</h3>
+                        <p class="service-card__text">
+                            Te ayudamos a encontrar la propiedad perfecta según tus necesidades y presupuesto. Asesoramiento integral durante todo el proceso de compra.
+                        </p>
+                    </article>
+                    <!-- Servicio 2: Venta -->
+                    <article class="service-card">
+                        <div class="service-card__icon"><i class="iconoir-dollar-circle"></i></div>
+                        <h3 class="service-card__title">Venta de Propiedades</h3>
+                        <p class="service-card__text">
+                            Valorización estratégica de tu inmueble, marketing profesional y negociación experta para obtener el mejor precio del mercado.
+                        </p>
+                    </article>
+                    <!-- Servicio 3: Alquiler -->
+                    <article class="service-card">
+                        <div class="service-card__icon"><i class="iconoir-journal-page"></i></div>
+                        <h3 class="service-card__title">Alquileres</h3>
+                        <p class="service-card__text">
+                            Gestionamos alquileres de propiedades residenciales y comerciales con contratos seguros y inquilinos verificados.
+                        </p>
+                    </article>
+                    <!-- Servicio 4: Asesoría -->
+                    <article class="service-card">
+                        <div class="service-card__icon"><i class="iconoir-user-badge-check"></i></div>
+                        <h3 class="service-card__title">Asesoría Inmobiliaria</h3>
+                        <p class="service-card__text">
+                            Consultoría especializada en inversiones inmobiliarias, análisis de mercado y planificación financiera para tus proyectos.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+        <!-- SECCIÓN NOSOTROS: Información de la empresa -->
+        <section id="nosotros" class="about" aria-label="Sobre Nosotros">
+            <div class="about__container">
+                <div class="about__content">
+                    <header class="section-header section-header--left">
+                        <h2 class="section-header__title">Sobre CasaVista</h2>
+                        <p class="section-header__subtitle">Más de 15 años de experiencia en el mercado inmobiliario</p>
+                    </header>
+                    <p class="about__text">
+                        En <strong>CasaVista</strong>, nos dedicamos a conectar personas con sus hogares soñados. Nuestro equipo de profesionales especializados ofrece un servicio personalizado, transparente y de confianza.
+                    </p>
+                    <p class="about__text">
+                        Contamos con un portafolio exclusivo de propiedades seleccionadas cuidadosamente para garantizar la máxima calidad y los mejores estándares de vida para nuestros clientes.
+                    </p>
+                    <a href="#contacto" class="about__cta">Conoce Más &rarr;</a>
+                </div>
+                <div class="about__image-wrapper">
+                    <img
+                        src="img/equipo.jpg"
+                        alt="Equipo profesional de CasaVista Inmobiliaria"
+                        class="about__image"
+                        loading="lazy"
+                    >
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN TESTIMONIOS: Opiniones de clientes -->
+        <section class="testimonials" aria-label="Testimonios de clientes">
+            <div class="testimonials__container">
+                <header class="section-header">
+                    <h2 class="section-header__title">Lo que dicen nuestros clientes</h2>
+                    <p class="section-header__subtitle">Historias reales de personas que encontraron su hogar</p>
+                </header>
+
+                <div class="testimonials__grid">
+                    <blockquote class="testimonial">
+                        <p class="testimonial__text">
+                            "CasaVista hizo que todo el proceso de compra fuera increíblemente sencillo. Encontramos nuestra casa soñada en menos de un mes. ¡Totalmente recomendados!"
+                        </p>
+                        <footer class="testimonial__author">
+                            <img
+                                src="https://placehold.co/60x60/bdc3c7/2c3e50?text=ML"
+                                alt="Foto de María López"
+                                class="testimonial__avatar"
+                                loading="lazy"
+                            >
+                            <div>
+                                <cite class="testimonial__name">María López</cite>
+                                <span class="testimonial__role">Compradora feliz</span>
+                            </div>
+                        </footer>
+                    </blockquote>
+                    <blockquote class="testimonial">
+                        <p class="testimonial__text">
+                            "El equipo de CasaVista me asesoró profesionalmente en la venta de mi departamento. Obtuvimos un precio muy por encima de mis expectativas."
+                        </p>
+                        <footer class="testimonial__author">
+                            <img
+                                src="https://placehold.co/60x60/bdc3c7/2c3e50?text=CR"
+                                alt="Foto de Carlos Ruiz"
+                                class="testimonial__avatar"
+                                loading="lazy"
+                            >
+                            <div>
+                                <cite class="testimonial__name">Carlos Ruiz</cite>
+                                <span class="testimonial__role">Vendedor satisfecho</span>
+                            </div>
+                        </footer>
+                    </blockquote>
+
+                </div>
+            </div>
+        </section>
+        <!-- SECCIÓN CONTACTO: Formulario e info       -->
+        <section id="contacto" class="contact" aria-label="Contáctanos">
+            <div class="contact__container">
+                <header class="section-header">
+                    <h2 class="section-header__title">Contáctanos</h2>
+                    <p class="section-header__subtitle">Estamos listos para ayudarte a encontrar tu hogar ideal</p>
+                </header>
+
+                <div class="contact__grid">
+                    <!-- Información de contacto -->
+                    <div class="contact__info">
+                        <div class="contact__info-item">
+                            <span class="contact__info-icon"><i class="iconoir-pin-solid"></i></span>
+                            <div>
+                                <h3 class="contact__info-label">Dirección</h3>
+                                <p class="contact__info-text">Av. Libertador 1234, Piso 8<br>Buenos Aires, Argentina</p>
+                            </div>
+                        </div>
+                        <div class="contact__info-item">
+                            <span class="contact__info-icon"><i class="iconoir-phone-solid"></i></span>
+                            <div>
+                                <h3 class="contact__info-label">Teléfono</h3>
+                                <p class="contact__info-text">+54 11 4567-8900</p>
+                            </div>
+                        </div>
+                        <div class="contact__info-item">
+                            <span class="contact__info-icon"><i class="iconoir-mail-solid"></i></span>
+                            <div>
+                                <h3 class="contact__info-label">Email</h3>
+                                <p class="contact__info-text">info@casavista.com</p>
+                            </div>
+                        </div>
+                        <div class="contact__info-item">
+                            <span class="contact__info-icon"><i class="iconoir-clock-solid"></i></span>
+                            <div>
+                                <h3 class="contact__info-label">Horario</h3>
+                                <p class="contact__info-text">Lun - Vie: 9:00 - 18:00<br>Sáb: 10:00 - 14:00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact__form" action="#" method="POST" aria-label="Formulario de contacto">
+                        <div class="form-group">
+                            <label for="name" class="form-group__label">Nombre completo</label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                class="form-group__input"
+                                placeholder="Tu nombre"
+                                required
+                                autocomplete="name"
+                            >
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-group__label">Correo electrónico</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                class="form-group__input"
+                                placeholder="tu@email.com"
+                                required
+                                autocomplete="email"
+                            >
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="form-group__label">Teléfono</label>
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                class="form-group__input"
+                                placeholder="+54 11 0000-0000"
+                                autocomplete="tel"
+                            >
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-group__label">Mensaje</label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                class="form-group__textarea"
+                                rows="5"
+                                placeholder="Cuéntanos qué estás buscando..."
+                                required
+                            ></textarea>
+                        </div>
+                        <button type="submit" class="contact__submit">Enviar Mensaje</button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer" role="contentinfo">
+        <div class="footer__container">
+            <!-- Info de la empresa -->
+            <div class="footer__brand">
+                <a href="#" class="footer__logo" aria-label="CasaVista - Inicio">
+                    <span class="footer__logo-icon">&#9758;</span>
+                    <span class="footer__logo-text">CasaVista</span>
+                </a>
+                <p class="footer__description">
+                    Tu socio de confianza en el mercado inmobiliario. Más de 15 años conectando personas con sus hogares soñados.
+                </p>
+            </div>
+
+            <!-- Enlaces rápidos -->
+            <nav class="footer__links" aria-label="Enlaces de pie de página">
+                <h3 class="footer__links-title">Enlaces</h3>
+                <ul class="footer__links-list">
+                    <li><a href="#inicio" class="footer__link">Inicio</a></li>
+                    <li><a href="#propiedades" class="footer__link">Propiedades</a></li>
+                    <li><a href="#servicios" class="footer__link">Servicios</a></li>
+                    <li><a href="#nosotros" class="footer__link">Nosotros</a></li>
+                    <li><a href="#contacto" class="footer__link">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <!-- Servicios -->
+            <div class="footer__servicios">
+                <h3 class="footer__links-title">Servicios</h3>
+                <ul class="footer__links-list">
+                    <li><a href="#servicios" class="footer__link">Compra</a></li>
+                    <li><a href="#servicios" class="footer__link">Venta</a></li>
+                    <li><a href="#servicios" class="footer__link">Alquiler</a></li>
+                    <li><a href="#servicios" class="footer__link">Asesoría</a></li>
+                </ul>
+            </div>
+            <!-- Redes sociales -->
+            <div class="footer__social">
+                <h3 class="footer__links-title">Síguenos</h3>
+                <div class="footer__social-icons">
+                    <a href="#" class="footer__social-link" aria-label="Facebook"><i class="iconoir-facebook-tag"></i></a>
+                    <a href="#" class="footer__social-link" aria-label="Instagram"><i class="iconoir-instagram"></i></a>
+                    <a href="#" class="footer__social-link" aria-label="Twitter"><i class="iconoir-x"></i></a>
+                    <a href="#" class="footer__social-link" aria-label="LinkedIn"><i class="iconoir-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- Barra de copyright -->
+        <div class="footer__bottom">
+            <p class="footer__copyright">&copy; 2026 CasaVista Inmobiliaria. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
