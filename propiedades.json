@@ -7,13 +7,13 @@
             "tipo":"Casa",
             "categoria":"Venta",
             "imagen":"/img/casa (6).jpg",
-            "info":[
+            "info":
                 {
                     "habitacion":"4",
                     "baños":"3",
                     "dimension":"220 m²"
                 }
-            ]
+            
         },
         {
             "titulo":"Departamento Penthouse",
@@ -21,14 +21,14 @@
             "ubicacion":"Puerto Madero, Buenos Aires",
             "tipo":"Departamento",
             "categoria":"Alquiler",
-            "imagen":"/img/casa (3).jpg",
-            "info":[
+            "imagen":"/img/casa (3).jpeg",
+            "info":
                 {
                     "habitacion":"3",
                     "baños":"2",
                     "dimension":"180 m²"
                 }
-            ]
+            
         },
         {
             "titulo":"Quinta de Lujo en el Lago",
@@ -36,29 +36,29 @@
             "ubicacion":"San Carlos de Bariloche, Río Negro",
             "tipo":"Quinta",
             "categoria":"Alquiler",
-            "imagen":"/img/casa (1).jpg",
-            "info":[
+            "imagen":"/img/casa (1).jpeg",
+            "info":
                 {
                     "habitacion":"5",
                     "baños":"4",
                     "dimension":"350 m²"
                 }
-            ]
+            
         },
         {
             "titulo":"Galpón",
             "precio":"USD 120.000",
-            "ubicacion":"Lomas de Zamora, Buenos Aires",
+            "ubicacion":"Las Talitas, Tucumán",
             "tipo":"Galpón",
             "categoria":"Venta",
             "imagen":"/img/casa (2).jpg",
-            "info":[
+            "info":
                 {
                     "habitacion":"1",
                     "baños":"1",
                     "dimension":"480 m²"
                 }
-            ]
+            
         },
         {
             "titulo":"Mansión",
@@ -67,13 +67,13 @@
             "tipo":"Casa",
             "categoria":"Venta",
             "imagen":"/img/casa (9).jpg",
-            "info":[
+            "info":
                 {
                     "habitacion":"6",
                     "baños":"5",
                     "dimension":"520 m²"
                 }
-            ]
+            
         },
         {
             "titulo":"Cabaña en la sierra",
@@ -82,13 +82,13 @@
             "tipo":"Cabaña",
             "categoria":"Alquiler",
             "imagen":"/img/casa (8).jpg",
-            "info":[
+            "info":
                 {
                     "habitacion":"2",
                     "baños":"1",
                     "dimension":"95 m²"
                 }
-            ]
+            
         },
         {
             "titulo":"Departamento dos ambientes",
@@ -97,13 +97,13 @@
             "tipo":"Departamento",
             "categoria":"Alquiler",
             "imagen":"/img/casa (5).jpg",
-            "info":[
+            "info":
                 {
                     "habitacion":"1",
                     "baños":"1",
                     "dimension":"55 m²"
                 }
-            ]
+            
         },
         {
             "titulo":"Casa de lujo",
@@ -112,13 +112,13 @@
             "tipo":"Casa",
             "categoria":"Venta",
             "imagen":"/img/casa (4).jpg",
-            "info":[
+            "info":
                 {
                     "habitacion":"5",
                     "baños":"4",
                     "dimension":"410 m²"
                 }
-            ]
+            
         },
         {
             "titulo":"Casa Moderna",
@@ -127,13 +127,13 @@
             "tipo":"Casa",
             "categoria":"Venta",
             "imagen":"/img/casa (7).jpg",
-            "info":[
+            "info":
                 {
                     "habitacion":"3",
                     "baños":"2",
                     "dimension":"160 m²"
                 }
-            ]
+            
         }
     ]
 
