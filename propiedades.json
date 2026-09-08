@@ -6,7 +6,7 @@
             "ubicacion":"Villa Carlos Paz, Córdoba",
             "tipo":"Casa",
             "categoria":"Venta",
-            "imagen":"/img/casa (6).jpg",
+            "imagen":"./img/casa (6).jpg",
             "info":
                 {
                     "habitacion":"4",
@@ -21,7 +21,7 @@
             "ubicacion":"Puerto Madero, Buenos Aires",
             "tipo":"Departamento",
             "categoria":"Alquiler",
-            "imagen":"/img/casa (3).jpeg",
+            "imagen":"./img/casa (3).jpeg",
             "info":
                 {
                     "habitacion":"3",
@@ -36,7 +36,7 @@
             "ubicacion":"San Carlos de Bariloche, Río Negro",
             "tipo":"Quinta",
             "categoria":"Alquiler",
-            "imagen":"/img/casa (1).jpeg",
+            "imagen":"./img/casa (1).jpeg",
             "info":
                 {
                     "habitacion":"5",
@@ -51,7 +51,7 @@
             "ubicacion":"Las Talitas, Tucumán",
             "tipo":"Galpón",
             "categoria":"Venta",
-            "imagen":"/img/casa (2).jpg",
+            "imagen":"./img/casa (2).jpg",
             "info":
                 {
                     "habitacion":"1",
@@ -66,7 +66,7 @@
             "ubicacion":"Núñez, Buenos Aires",
             "tipo":"Casa",
             "categoria":"Venta",
-            "imagen":"/img/casa (9).jpg",
+            "imagen":"./img/casa (9).jpg",
             "info":
                 {
                     "habitacion":"6",
@@ -81,7 +81,7 @@
             "ubicacion":"Villa General Belgrano, Córdoba",
             "tipo":"Cabaña",
             "categoria":"Alquiler",
-            "imagen":"/img/casa (8).jpg",
+            "imagen":"./img/casa (8).jpg",
             "info":
                 {
                     "habitacion":"2",
@@ -96,7 +96,7 @@
             "ubicacion":"Palermo, Buenos Aires",
             "tipo":"Departamento",
             "categoria":"Alquiler",
-            "imagen":"/img/casa (5).jpg",
+            "imagen":"./img/casa (5).jpg",
             "info":
                 {
                     "habitacion":"1",
@@ -111,7 +111,7 @@
             "ubicacion":"Martínez, Buenos Aires",
             "tipo":"Casa",
             "categoria":"Venta",
-            "imagen":"/img/casa (4).jpg",
+            "imagen":"./img/casa (4).jpg",
             "info":
                 {
                     "habitacion":"5",
@@ -126,7 +126,7 @@
             "ubicacion":"Mendoza, Mendoza",
             "tipo":"Casa",
             "categoria":"Venta",
-            "imagen":"/img/casa (7).jpg",
+            "imagen":"./img/casa (7).jpg",
             "info":
                 {
                     "habitacion":"3",
