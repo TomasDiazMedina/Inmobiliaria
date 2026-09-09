@@ -21,7 +21,7 @@ function mostrarPropiedades(propiedades){
     const contenedor = document.getElementById("contenedor");
     //Limpiar el html previo cada que se llame a la función
     contenedor.innerHTML = "";
-    if(propiedades.lenght === 0){
+    if(propiedades.length === 0){
         contenedor.innerHTML = '<p class="texto_contenedor">No hay propiedades disponibles.</p>'; 
         return;
     }
